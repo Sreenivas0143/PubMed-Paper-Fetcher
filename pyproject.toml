@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "get-papers"
+version = "0.1.0"
+description = "CLI tool to fetch PubMed papers with pharma/biotech authors"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+click = "^8.1.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.982"
+
+[tool.poetry.scripts]
+get-papers-list = "cli:main"
