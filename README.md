@@ -1,7 +1,5 @@
 # 📄 PubMed-Paper-Fetcher
 
-# 📄 PubMed-Paper-Fetcher
-
 **CLI tool to fetch PubMed papers with authors affiliated to pharma/biotech companies.**
 
 **PubMed Paper Fetcher** is a Python-based command-line tool that allows users to search for research papers from **PubMed** using any query. It intelligently identifies papers with at least one author affiliated with **pharmaceutical or biotech companies**, using heuristics like keywords in affiliations or email domains.
